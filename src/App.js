@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Route,
   Routes,
   Navigate
@@ -29,21 +29,21 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <HashRouter>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/portfolio" element={<Home />} />
-          <Route path="/portfolio/project" element={<Projects />} />
-          <Route path="/portfolio/about" element={<About />} />
-          <Route path="/portfolio/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/portfolio"/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
