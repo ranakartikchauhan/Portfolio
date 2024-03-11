@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.aa421065.css",
-    "main.js": "/portfolio/static/js/main.0b240fb1.js",
+    "main.js": "/portfolio/static/js/main.fe08dd6c.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile-pic (6).png": "/portfolio/static/media/profile-pic (6).872b77403d5348d579f4.png",
@@ -14,17 +14,17 @@
     "static/media/home-main.svg": "/portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/weatherApp.png": "/portfolio/static/media/weatherApp.eb64d9a99b47e0915fb1.png",
-    "static/media/KartikResume.pdf": "/portfolio/static/media/KartikResume.829e75d58df68125ee82.pdf",
+    "static/media/KartikResume.pdf": "/portfolio/static/media/KartikResume.9df14a1721b49c0f6a13.pdf",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
     "main.aa421065.css.map": "/portfolio/static/css/main.aa421065.css.map",
-    "main.0b240fb1.js.map": "/portfolio/static/js/main.0b240fb1.js.map",
+    "main.fe08dd6c.js.map": "/portfolio/static/js/main.fe08dd6c.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa421065.css",
-    "static/js/main.0b240fb1.js"
+    "static/js/main.fe08dd6c.js"
   ]
 }
