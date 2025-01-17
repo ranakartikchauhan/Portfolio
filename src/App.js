@@ -7,10 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
-  HashRouter,
-  Route,
-  Routes,
-  Navigate
+  BrowserRouter
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -29,21 +26,20 @@ function App() {
   }, []);
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
+        <div>
+          <section id="home"><Home /></section>
+          <section id="about"><About /></section>
+          <section id="projects"><Projects /></section>
+          <section id="resume"><Resume /></section>
+        </div>
         <Footer />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
