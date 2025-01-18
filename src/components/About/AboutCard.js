@@ -7,33 +7,11 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">KARTIK CHAUHAN </span>
-            from <span className="purple"> Saharanpur, Uttar Pradesh.</span>
-            <br />
-            I am currently looking for the new opportunity in the field of MERN stack/ Software engineer.
-            <br />
-            I have completed B.tech in computer science from IKG PTU Mohali, Punjab. 
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Listening Music
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing  Poem
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Planting
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Ultimate goal of life is happiness"{" "}
-          </p>
-          <footer className="blockquote-footer">Kartik</footer>
+          Hi, I’m  <span className="text-purple">Kartik Chauhan</span> , a MERN Stack Developer with 1+ years
+          of experience in building scalable web applications, robust APIs, and
+          optimized database solutions. I hold a B.Tech in Computer Science
+          and have developed impactful projects like job platforms and real
+          estate systems. Let’s connect to create innovative solutions!
         </blockquote>
       </Card.Body>
     </Card>

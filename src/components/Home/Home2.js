@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/profile-pic (6).png";
+import myImg from "../../Assets/Designer.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,37 +19,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple">Javascript, React , NodeJS, ExpressJS and MongoDB. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Ecommerce 
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I am a passionate software
+              developer with a solid foundation in modern web technologies,
+              including JavaScript, React, Node.js, Express.js, and MongoDB. I
+              specialize in building scalable and user-centric web applications,
+              with a keen interest in developing innovative solutions for
+              e-commerce and cutting-edge web technologies. Driven by a desire
+              to create impactful products, I focus on leveraging frameworks
+              like React.js and Next.js alongside Node.js to deliver
+              high-performance, efficient, and reliable applications. I am
+              committed to continuous learning and thrive in collaborative
+              environments where I can contribute to building meaningful
+              products that solve real-world problems.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
